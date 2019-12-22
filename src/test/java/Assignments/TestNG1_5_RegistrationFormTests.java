@@ -100,6 +100,7 @@ import java.util.List;
 
     @AfterMethod
     public void teardown() {
+
         driver.quit();
     }
 }
