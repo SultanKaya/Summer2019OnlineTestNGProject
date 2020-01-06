@@ -65,8 +65,8 @@ import java.util.List;
     }
     @Test(description = "verify the success message")
     public void test5(){
-        driver.findElement(By.name("firstname")).sendKeys("Filiz");
-        driver.findElement(By.name("lastname")).sendKeys("Coskunuzer");
+        driver.findElement(By.name("firstname")).sendKeys("Sultan");
+        driver.findElement(By.name("lastname")).sendKeys("Kaya");
         driver.findElement(By.xpath("//input[@placeholder='username']")).sendKeys("Filizsi");
         driver.findElement(By.xpath("//input[@data-bv-field='email']")).sendKeys("email@gmail.com");
         driver.findElement(By.cssSelector("input[type='password']")).sendKeys("12345678");
